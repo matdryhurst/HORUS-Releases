@@ -3,6 +3,27 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Thu, 20 Aug 2026 19:08:02 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.8.0</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[p∞l 0.8.0 makes KILN a true in-app instrument. Members granted KILN access can
+open and use it directly from Pool's top navigation without installing or
+launching a second application. KILN inherits the member's existing Pool token,
+renders locally, retains the established local firing archive, and downloads
+only selected team source originals. Starred firings continue to preserve their
+recipes, inputs, recovery bundles, and Pool project records.
+
+This release removes the former KILN installer and launcher path. Per-person
+visibility remains controlled by the team server, so members without a KILN
+grant neither see the tab nor reach its local APIs.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.8.0/Pool-macOS-arm64.zip" length="297536884" type="application/octet-stream" sparkle:edSignature="uV6BIg9ZkTfELYvwYei6koJtC+0cuRp9HeHlofuArE/k+ZVlUI2xxUv7wCjaAIhV4JyROfDHLbAS9YI1Isb6Bw=="/>
+        </item>
+        <item>
             <title>0.7.4</title>
             <pubDate>Thu, 20 Aug 2026 18:20:57 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -35,18 +56,6 @@ separately installed local instrument: Pool opens its fixed macOS application
 identity without bundling KILN or copying its local firing archive.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.3/Pool-macOS-arm64.zip" length="297411808" type="application/octet-stream" sparkle:edSignature="zA4d92MD/mxDKPPkKDG9LhvuGmfO9YwU+0PyNQuIVPJkBTn8jhafPeLbL500smWpST5nO4S9qsSDavRlgkOxCw=="/>
-        </item>
-        <item>
-            <title>0.7.2</title>
-            <pubDate>Thu, 20 Aug 2026 16:20:35 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.7.2</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[p∞l 0.7.2 adds per-person application access tied to each existing team token. The server now decides which top-level applications a member can see and use; grants and revocations synchronize without reinstalling Pool. An administrator-configured private Selector can appear as a full-window Pool application while retaining its own independent network identity checks. BRAIN remains hidden and its historical records remain preserved.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.2/Pool-macOS-arm64.zip" length="297412763" type="application/octet-stream" sparkle:edSignature="rRb4KwwQB+qaGyodaf2ktC/OV9Fwg587HFe+/0Te5gkFncDul//yMPi9bmKBeL4LP2SkuRQxNkn9waE2SGm1CQ=="/>
         </item>
     </channel>
 </rss>
