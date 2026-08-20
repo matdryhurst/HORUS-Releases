@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.7.1</title>
+            <pubDate>Thu, 20 Aug 2026 15:46:32 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.7.1</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[p∞l 0.7.1 removes the experimental BRAIN workspace from the live application while it is redesigned. Existing BRAIN rounds and choices remain safely preserved in the team archive; this update does not alter images, projects, captions, embeddings, notes, Press, Links, tokens, or local thumbnail caches.
+
+The release continues to update existing Pool and legacy HORUS installations in place through the same signed Sparkle feed.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.1/Pool-macOS-arm64.zip" length="297411319" type="application/octet-stream" sparkle:edSignature="cEsEcwSKy6PQL85FX8XCwGXl5/k0pkhej05eTAfcI1HvMc5EpcY8UD9I0ZcaIFxtILzbSYMSL1DN2XtCTI3vAw=="/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Thu, 20 Aug 2026 15:32:24 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -33,27 +47,6 @@ This release also includes the latest BRAIN workspace, PDF project support, full
 - Preserves the compact HORUS interface and existing project, search, rating, and archive workflows.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.6.1/HORUS-macOS-arm64.zip" length="294990738" type="application/octet-stream" sparkle:edSignature="7cll0MdwDl8egha4YOkoiaw4/AnPFYavYLCWBdT3QGE4IhF+lksfrvWTq7Plih9qd7fDaacR4npK6UzIVb7RAA=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Tue, 18 Aug 2026 23:02:04 +0200</pubDate>
-            <link>https://github.com/matdryhurst/HORUS</link>
-            <sparkle:version>0.6.0</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# HORUS 0.6.0
-
-- Replaces the custom web-view updater with the native Sparkle 2 update system.
-- Checks the signed GitHub release feed when HORUS opens and then hourly.
-- Adds a native **Check for Updates…** command to the HORUS application menu.
-- Cryptographically verifies every update before replacing the application.
-- Keeps all team archive data and authentication on the separate Hetzner service.
-
-This is the one-time bootstrap release for the new updater. Existing team members
-must install 0.6.0 manually; later releases can be installed through Sparkle.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.6.0/HORUS-macOS-arm64.zip" length="294988672" type="application/octet-stream" sparkle:edSignature="hSU+VmBwO93Q6qd4Z7cm8r2J/PvImQFptw45XiUnaT5hp7F3m8ppMUUPYBTVmgFjcnwyQBMAvB1bH73ep03MBA=="/>
         </item>
     </channel>
 </rss>
