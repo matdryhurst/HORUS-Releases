@@ -3,6 +3,18 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.7.2</title>
+            <pubDate>Thu, 20 Aug 2026 16:20:35 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.7.2</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[p∞l 0.7.2 adds per-person application access tied to each existing team token. The server now decides which top-level applications a member can see and use; grants and revocations synchronize without reinstalling Pool. An administrator-configured private Selector can appear as a full-window Pool application while retaining its own independent network identity checks. BRAIN remains hidden and its historical records remain preserved.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.2/Pool-macOS-arm64.zip" length="297412763" type="application/octet-stream" sparkle:edSignature="rRb4KwwQB+qaGyodaf2ktC/OV9Fwg587HFe+/0Te5gkFncDul//yMPi9bmKBeL4LP2SkuRQxNkn9waE2SGm1CQ=="/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Thu, 20 Aug 2026 15:46:32 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -29,24 +41,6 @@ The release continues to update existing Pool and legacy HORUS installations in 
 This release also includes the latest BRAIN workspace, PDF project support, full-resolution drag export, duplicate review, project downloads, filename search, and the accumulated archive reliability and interaction fixes through HORUS 0.6.14.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.0/Pool-macOS-arm64.zip" length="297410224" type="application/octet-stream" sparkle:edSignature="M1tRbEsdb9vJqd35nEkP04/l0CTb8PlWbifFDWkwevXTW1CW0yMk932H3XMpfOuKJjE/y59IUUI05xnT/7P3AQ=="/>
-        </item>
-        <item>
-            <title>0.6.1</title>
-            <pubDate>Wed, 19 Aug 2026 01:11:51 +0200</pubDate>
-            <link>https://github.com/matdryhurst/HORUS</link>
-            <sparkle:version>0.6.1</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# HORUS 0.6.1
-
-- Adds **Find more** to Concepts with at least three captioned and embedded images.
-- Learns from every hand-selected image in the Concept, combining meaning, visual structure, and caption similarity.
-- Searches across the complete archive and excludes images already assigned to the Concept.
-- Keeps all suggestions reviewable: select candidates and choose **Add to [Concept]**; HORUS never assigns them silently.
-- Preserves the compact HORUS interface and existing project, search, rating, and archive workflows.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.6.1/HORUS-macOS-arm64.zip" length="294990738" type="application/octet-stream" sparkle:edSignature="7cll0MdwDl8egha4YOkoiaw4/AnPFYavYLCWBdT3QGE4IhF+lksfrvWTq7Plih9qd7fDaacR4npK6UzIVb7RAA=="/>
         </item>
     </channel>
 </rss>
