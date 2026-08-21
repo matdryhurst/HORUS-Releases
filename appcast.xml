@@ -3,6 +3,23 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.11.1</title>
+            <pubDate>Fri, 21 Aug 2026 13:43:06 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.11.1</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.11.1
+
+- Makes multi-image drops register much faster by refreshing the shared archive once per batch instead of once per file.
+- Queues additional drops instead of silently rejecting them while another batch is uploading.
+- Continues through a batch when one file fails and reports the exact failed file without losing the rest.
+- Identifies images that were already present in the deduplicated archive instead of implying they were newly queued.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.1/Pool-macOS-arm64.zip" length="297579618" type="application/octet-stream" sparkle:edSignature="5nvHHFAEy+2XF4tdXST506SuYk612WGaeyxUmnjJnZRTs1Ihuqgmy7A1Mh78CN6ylf0pdoBvdkqyPd5psY8cCw=="/>
+        </item>
+        <item>
             <title>0.11.0</title>
             <pubDate>Fri, 21 Aug 2026 09:55:51 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -42,21 +59,6 @@ visibility remains controlled by the team server, so members without a KILN
 grant neither see the tab nor reach its local APIs.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.8.0/Pool-macOS-arm64.zip" length="297536884" type="application/octet-stream" sparkle:edSignature="uV6BIg9ZkTfELYvwYei6koJtC+0cuRp9HeHlofuArE/k+ZVlUI2xxUv7wCjaAIhV4JyROfDHLbAS9YI1Isb6Bw=="/>
-        </item>
-        <item>
-            <title>0.7.4</title>
-            <pubDate>Thu, 20 Aug 2026 18:20:57 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.7.4</sparkle:version>
-            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[p∞l 0.7.4 can carry KILN as an optional, verified companion application. Members
-with KILN access can install and open it directly from the KILN tab; Pool copies
-only the application into that member's own Applications folder and does not
-bundle or download the KILN firing archive.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.4/Pool-macOS-arm64.zip" length="425952140" type="application/octet-stream" sparkle:edSignature="jTpCk9RJbQ8fLFNyDARLomI+3DXsYUR/0gLzgZjT/jlz9l0040hn2NPFNYK1YRN5ipDTuW0TDvFaOCv8MW6vAQ=="/>
         </item>
     </channel>
 </rss>
