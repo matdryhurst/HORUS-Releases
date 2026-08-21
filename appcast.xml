@@ -3,6 +3,26 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.11.0</title>
+            <pubDate>Fri, 21 Aug 2026 09:55:51 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.11.0</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.11.0
+
+- Adds CURRENT, a shared ledger for open-ended projects, weekly attention, bounded work, and immutable receipts.
+- Gives each member 100 fresh, non-transferable attention points per week while preserving individual allocations and disagreement.
+- Keeps project purpose, desired outcome, privacy, lane, resource envelope, and every revision together.
+- Lets stewards propose and approve allowlisted work orders with explicit caps for agent tokens, GPU minutes, retained storage, and cloud spend.
+- Matches queued work to opt-in providers by recipe and administrator-set privacy trust, with renewable leases and safe crash recovery.
+- Runs provider-local recipes without exposing Pool member or worker tokens to child processes, stops full process groups at timeout, and retains capped artifacts with hashes.
+- Keeps CURRENT independent from Images, Press, and Links permissions, so the institution can be shared without exposing the studio archive.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.0/Pool-macOS-arm64.zip" length="297578676" type="application/octet-stream" sparkle:edSignature="3dHWLpZeR/JceBqeYL28EYHF8yPUJxIfbCoY0Ieug7P+d8pzqpcGR64uE4QsnYNzRFEjY7j2sy/yINBzxD/OCg=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Thu, 20 Aug 2026 19:08:02 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -37,25 +57,6 @@ only the application into that member's own Applications folder and does not
 bundle or download the KILN firing archive.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.4/Pool-macOS-arm64.zip" length="425952140" type="application/octet-stream" sparkle:edSignature="jTpCk9RJbQ8fLFNyDARLomI+3DXsYUR/0gLzgZjT/jlz9l0040hn2NPFNYK1YRN5ipDTuW0TDvFaOCv8MW6vAQ=="/>
-        </item>
-        <item>
-            <title>0.7.3</title>
-            <pubDate>Thu, 20 Aug 2026 16:56:55 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.7.3</sparkle:version>
-            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[p∞l 0.7.3 fixes the blank private Selector workspace by allowing only the exact
-Selector origin supplied by the authenticated team server. Selector remains
-independently protected by the studio tailnet and does not download its full
-audio library to the Mac.
-
-This release also adds a per-person KILN tab for entitled members. KILN stays a
-separately installed local instrument: Pool opens its fixed macOS application
-identity without bundling KILN or copying its local firing archive.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.7.3/Pool-macOS-arm64.zip" length="297411808" type="application/octet-stream" sparkle:edSignature="zA4d92MD/mxDKPPkKDG9LhvuGmfO9YwU+0PyNQuIVPJkBTn8jhafPeLbL500smWpST5nO4S9qsSDavRlgkOxCw=="/>
         </item>
     </channel>
 </rss>
