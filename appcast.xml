@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.11.7</title>
+            <pubDate>Mon, 24 Aug 2026 17:21:35 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.11.7</sparkle:version>
+            <sparkle:shortVersionString>0.11.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# p∞l 0.11.7
+
+- Fixes KILN exports by sending the rendered PNG directly to p∞l instead of wrapping it in a large base64 JSON request.
+- Supports validated PNG exports up to 250 MB and saves them to the user's Downloads folder with a collision-safe filename.
+- Keeps the existing local-session and KILN access checks on the export route.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.7/Pool-macOS-arm64.zip" length="303824317" type="application/octet-stream" sparkle:edSignature="pVFYJd9AagCtPAa+kw3oFw3Afnknb0PddGXYUuADREKmzQk4TMmic0jet6jiZo0rLX0+KcwxV6Erq8GYg82LCw=="/>
+        </item>
+        <item>
             <title>0.11.1</title>
             <pubDate>Fri, 21 Aug 2026 13:43:06 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -38,27 +54,6 @@
 - Keeps CURRENT independent from Images, Press, and Links permissions, so the institution can be shared without exposing the studio archive.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.0/Pool-macOS-arm64.zip" length="297578676" type="application/octet-stream" sparkle:edSignature="3dHWLpZeR/JceBqeYL28EYHF8yPUJxIfbCoY0Ieug7P+d8pzqpcGR64uE4QsnYNzRFEjY7j2sy/yINBzxD/OCg=="/>
-        </item>
-        <item>
-            <title>0.8.0</title>
-            <pubDate>Thu, 20 Aug 2026 19:08:02 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.8.0</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[p∞l 0.8.0 makes KILN a true in-app instrument. Members granted KILN access can
-open and use it directly from Pool's top navigation without installing or
-launching a second application. KILN inherits the member's existing Pool token,
-renders locally, retains the established local firing archive, and downloads
-only selected team source originals. Starred firings continue to preserve their
-recipes, inputs, recovery bundles, and Pool project records.
-
-This release removes the former KILN installer and launcher path. Per-person
-visibility remains controlled by the team server, so members without a KILN
-grant neither see the tab nor reach its local APIs.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.8.0/Pool-macOS-arm64.zip" length="297536884" type="application/octet-stream" sparkle:edSignature="uV6BIg9ZkTfELYvwYei6koJtC+0cuRp9HeHlofuArE/k+ZVlUI2xxUv7wCjaAIhV4JyROfDHLbAS9YI1Isb6Bw=="/>
         </item>
     </channel>
 </rss>
