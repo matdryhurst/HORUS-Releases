@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.11.8</title>
+            <pubDate>Mon, 24 Aug 2026 22:19:30 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.11.8</sparkle:version>
+            <sparkle:shortVersionString>0.11.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# p∞l 0.11.8
+
+- Fixes Finder image and folder drops being mistaken for a stale in-app image drag.
+- Falls back to the captured file when WebKit cannot resolve a dropped filesystem entry.
+- Stops deleted pending images from keeping the shared caption queue visibly occupied.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.8/Pool-macOS-arm64.zip" length="303821631" type="application/octet-stream" sparkle:edSignature="HIkTIBwBKL+y2qwsx2nvzQ+V82yREZSbcTEx3rcjC52HlrplgDi24kqwxdjGf/KmDra/8Ok8M4Js2XMwair8Cw=="/>
+        </item>
+        <item>
             <title>0.11.7</title>
             <pubDate>Mon, 24 Aug 2026 17:21:35 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -34,26 +50,6 @@
 - Identifies images that were already present in the deduplicated archive instead of implying they were newly queued.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.1/Pool-macOS-arm64.zip" length="297579618" type="application/octet-stream" sparkle:edSignature="5nvHHFAEy+2XF4tdXST506SuYk612WGaeyxUmnjJnZRTs1Ihuqgmy7A1Mh78CN6ylf0pdoBvdkqyPd5psY8cCw=="/>
-        </item>
-        <item>
-            <title>0.11.0</title>
-            <pubDate>Fri, 21 Aug 2026 09:55:51 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.11.0</sparkle:version>
-            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Pool 0.11.0
-
-- Adds CURRENT, a shared ledger for open-ended projects, weekly attention, bounded work, and immutable receipts.
-- Gives each member 100 fresh, non-transferable attention points per week while preserving individual allocations and disagreement.
-- Keeps project purpose, desired outcome, privacy, lane, resource envelope, and every revision together.
-- Lets stewards propose and approve allowlisted work orders with explicit caps for agent tokens, GPU minutes, retained storage, and cloud spend.
-- Matches queued work to opt-in providers by recipe and administrator-set privacy trust, with renewable leases and safe crash recovery.
-- Runs provider-local recipes without exposing Pool member or worker tokens to child processes, stops full process groups at timeout, and retains capped artifacts with hashes.
-- Keeps CURRENT independent from Images, Press, and Links permissions, so the institution can be shared without exposing the studio archive.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.0/Pool-macOS-arm64.zip" length="297578676" type="application/octet-stream" sparkle:edSignature="3dHWLpZeR/JceBqeYL28EYHF8yPUJxIfbCoY0Ieug7P+d8pzqpcGR64uE4QsnYNzRFEjY7j2sy/yINBzxD/OCg=="/>
         </item>
     </channel>
 </rss>
