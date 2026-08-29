@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.4</title>
+            <pubDate>Sun, 30 Aug 2026 01:39:47 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.12.4</sparkle:version>
+            <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# p∞l 0.12.4
+
+- Requires one manual replacement install because Pool's updater signing key was reset; automatic updates resume after 0.12.4 is installed.
+- Restores the current Pool and embedded KILN interface, including the shared firing archive, restore controls, column mode, and batch generation.
+- Adds pinch-to-zoom and drag-to-pan to fullscreen image viewing, with zoom centered on the gesture and quick reset controls.
+- Preserves the full-resolution source switch and native image dragging when the fullscreen view is not zoomed.
+- Bundles the corrected KILN assets so future installs no longer fall back to the old standalone interface.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.4/Pool-macOS-arm64.zip" length="304496866" type="application/octet-stream" sparkle:edSignature="m9vLrq1zA34xmDPeb0DP8CX5wLYOiAmwNNmxLoou3Ippo2TQ/Fjyg09TAOzxLmR/lw5FRRaffCN4rWbpDjIXCQ=="/>
+        </item>
+        <item>
             <title>0.11.8</title>
             <pubDate>Mon, 24 Aug 2026 22:19:30 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -33,23 +51,6 @@
 - Keeps the existing local-session and KILN access checks on the export route.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.7/Pool-macOS-arm64.zip" length="303824317" type="application/octet-stream" sparkle:edSignature="pVFYJd9AagCtPAa+kw3oFw3Afnknb0PddGXYUuADREKmzQk4TMmic0jet6jiZo0rLX0+KcwxV6Erq8GYg82LCw=="/>
-        </item>
-        <item>
-            <title>0.11.1</title>
-            <pubDate>Fri, 21 Aug 2026 13:43:06 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.11.1</sparkle:version>
-            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Pool 0.11.1
-
-- Makes multi-image drops register much faster by refreshing the shared archive once per batch instead of once per file.
-- Queues additional drops instead of silently rejecting them while another batch is uploading.
-- Continues through a batch when one file fails and reports the exact failed file without losing the rest.
-- Identifies images that were already present in the deduplicated archive instead of implying they were newly queued.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.1/Pool-macOS-arm64.zip" length="297579618" type="application/octet-stream" sparkle:edSignature="5nvHHFAEy+2XF4tdXST506SuYk612WGaeyxUmnjJnZRTs1Ihuqgmy7A1Mh78CN6ylf0pdoBvdkqyPd5psY8cCw=="/>
         </item>
     </channel>
 </rss>
