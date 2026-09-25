@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.21</title>
+            <pubDate>Fri, 25 Sep 2026 14:29:21 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.12.21</sparkle:version>
+            <sparkle:shortVersionString>0.12.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.21
+
+- Removes drag-to-select from the archive so dragging a thumbnail exports its full-resolution original.
+- Preserves checkbox and modifier-click selection for batch actions and exporting multiple images.
+- Prepares exports when hovering over any thumbnail, including unselected images.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.21/Pool-macOS-arm64.zip" length="324336591" type="application/octet-stream" sparkle:edSignature="zJeVBOKtWkLK5djl2NMFeMBL0Ccdgh6yZIJ7vgo9LqYCTqdmiORe7gHNo+1N/8dI4iA+7Kv7VRB0ZOAEb1LWBw=="/>
+        </item>
+        <item>
             <title>0.12.4</title>
             <pubDate>Sun, 30 Aug 2026 01:39:47 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -35,22 +51,6 @@
 - Stops deleted pending images from keeping the shared caption queue visibly occupied.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.8/Pool-macOS-arm64.zip" length="303821631" type="application/octet-stream" sparkle:edSignature="HIkTIBwBKL+y2qwsx2nvzQ+V82yREZSbcTEx3rcjC52HlrplgDi24kqwxdjGf/KmDra/8Ok8M4Js2XMwair8Cw=="/>
-        </item>
-        <item>
-            <title>0.11.7</title>
-            <pubDate>Mon, 24 Aug 2026 17:21:35 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.11.7</sparkle:version>
-            <sparkle:shortVersionString>0.11.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# p∞l 0.11.7
-
-- Fixes KILN exports by sending the rendered PNG directly to p∞l instead of wrapping it in a large base64 JSON request.
-- Supports validated PNG exports up to 250 MB and saves them to the user's Downloads folder with a collision-safe filename.
-- Keeps the existing local-session and KILN access checks on the export route.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.7/Pool-macOS-arm64.zip" length="303824317" type="application/octet-stream" sparkle:edSignature="pVFYJd9AagCtPAa+kw3oFw3Afnknb0PddGXYUuADREKmzQk4TMmic0jet6jiZo0rLX0+KcwxV6Erq8GYg82LCw=="/>
         </item>
     </channel>
 </rss>
