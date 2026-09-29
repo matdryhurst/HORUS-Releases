@@ -3,6 +3,31 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.22</title>
+            <pubDate>Tue, 29 Sep 2026 09:21:57 +0200</pubDate>
+            <link>https://github.com/matdryhurst/Pool</link>
+            <sparkle:version>0.12.22</sparkle:version>
+            <sparkle:shortVersionString>0.12.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.22
+
+- Add a shared PDF Library beside Press, with multiple-file upload, full-text
+  search, project and contributor filters, and original downloads.
+- Read PDFs in Pool and use the existing title/summary, team notes, project and
+  concept controls. Library and Press share the Press archive permission.
+- Keep existing Press records unchanged. One PDF can appear in both collections
+  without duplicating its file, notes or project assignments.
+- PDFs dropped into project folders now enter Library. Press capture imports
+  continue to enter Press.
+- Fix embedded PDF previews and keep document rows stable during refresh.
+
+Requires the updated team server. Library is a desktop feature; the native iOS
+client is unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.22/Pool-macOS-arm64.zip" length="324336917" type="application/octet-stream" sparkle:edSignature="neYUseia3Zp0DuyNIeHFF1KH3N15IlQJiMXABbWdon+poTIAHq8VCCAU/vOfYvxx9H3ZIakO+ULH44TEuaUrCw=="/>
+        </item>
+        <item>
             <title>0.12.21</title>
             <pubDate>Fri, 25 Sep 2026 14:29:21 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
@@ -35,22 +60,6 @@
 - Bundles the corrected KILN assets so future installs no longer fall back to the old standalone interface.
 ]]></description>
             <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.4/Pool-macOS-arm64.zip" length="304496866" type="application/octet-stream" sparkle:edSignature="m9vLrq1zA34xmDPeb0DP8CX5wLYOiAmwNNmxLoou3Ippo2TQ/Fjyg09TAOzxLmR/lw5FRRaffCN4rWbpDjIXCQ=="/>
-        </item>
-        <item>
-            <title>0.11.8</title>
-            <pubDate>Mon, 24 Aug 2026 22:19:30 +0200</pubDate>
-            <link>https://github.com/matdryhurst/Pool</link>
-            <sparkle:version>0.11.8</sparkle:version>
-            <sparkle:shortVersionString>0.11.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# p∞l 0.11.8
-
-- Fixes Finder image and folder drops being mistaken for a stale in-app image drag.
-- Falls back to the captured file when WebKit cannot resolve a dropped filesystem entry.
-- Stops deleted pending images from keeping the shared caption queue visibly occupied.
-]]></description>
-            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.11.8/Pool-macOS-arm64.zip" length="303821631" type="application/octet-stream" sparkle:edSignature="HIkTIBwBKL+y2qwsx2nvzQ+V82yREZSbcTEx3rcjC52HlrplgDi24kqwxdjGf/KmDra/8Ok8M4Js2XMwair8Cw=="/>
         </item>
     </channel>
 </rss>
