@@ -41,7 +41,6 @@ jobs:
     timeout-minutes: 120
     environment: pool-production
     env:
-      POOL_NOTARY_PROFILE: pool-ci-notary
       REQUESTED_VERSION: ${{ inputs.version }}
       RELEASE_MODE: ${{ inputs.mode }}
 
@@ -94,87 +93,19 @@ jobs:
         with:
           enable-cache: false
 
-      - name: Run Pool tests before importing signing keys
+      - name: Run Pool tests
         working-directory: pool
         run: |
           uv venv --python 3.12 .venv-desktop
           uv pip install --python .venv-desktop/bin/python -r requirements-desktop.txt
           .venv-desktop/bin/python -m unittest discover -s tests
 
-      - name: Check protected credentials
-        shell: bash
+      - name: Check Sparkle credential
         env:
-          APPLE_DEVELOPER_ID_P12_BASE64: ${{ secrets.APPLE_DEVELOPER_ID_P12_BASE64 }}
-          APPLE_DEVELOPER_ID_P12_PASSWORD: ${{ secrets.APPLE_DEVELOPER_ID_P12_PASSWORD }}
-          APPLE_NOTARY_KEY_P8_BASE64: ${{ secrets.APPLE_NOTARY_KEY_P8_BASE64 }}
-          APPLE_NOTARY_KEY_ID: ${{ secrets.APPLE_NOTARY_KEY_ID }}
-          APPLE_NOTARY_ISSUER_ID: ${{ secrets.APPLE_NOTARY_ISSUER_ID }}
           POOL_SPARKLE_PRIVATE_KEY: ${{ secrets.POOL_SPARKLE_PRIVATE_KEY }}
-        run: |
-          set -euo pipefail
-          required=(
-            APPLE_DEVELOPER_ID_P12_BASE64
-            APPLE_DEVELOPER_ID_P12_PASSWORD
-            APPLE_NOTARY_KEY_P8_BASE64
-            APPLE_NOTARY_KEY_ID
-            APPLE_NOTARY_ISSUER_ID
-            POOL_SPARKLE_PRIVATE_KEY
-          )
-          for name in "${required[@]}"; do
-            if [[ -z "${!name:-}" ]]; then
-              echo "Missing pool-production secret: $name" >&2
-              exit 1
-            fi
-          done
+        run: test -n "$POOL_SPARKLE_PRIVATE_KEY"
 
-      - name: Prepare Developer ID and notarization
-        shell: bash
-        env:
-          APPLE_DEVELOPER_ID_P12_BASE64: ${{ secrets.APPLE_DEVELOPER_ID_P12_BASE64 }}
-          APPLE_DEVELOPER_ID_P12_PASSWORD: ${{ secrets.APPLE_DEVELOPER_ID_P12_PASSWORD }}
-          APPLE_NOTARY_KEY_P8_BASE64: ${{ secrets.APPLE_NOTARY_KEY_P8_BASE64 }}
-          APPLE_NOTARY_KEY_ID: ${{ secrets.APPLE_NOTARY_KEY_ID }}
-          APPLE_NOTARY_ISSUER_ID: ${{ secrets.APPLE_NOTARY_ISSUER_ID }}
-        run: |
-          set -euo pipefail
-          umask 077
-          keychain="$RUNNER_TEMP/pool-signing.keychain-db"
-          keychain_password="$(openssl rand -hex 32)"
-          echo "::add-mask::$keychain_password"
-          security default-keychain -d user > "$RUNNER_TEMP/pool-original-keychain"
-          echo "POOL_SIGNING_KEYCHAIN=$keychain" >> "$GITHUB_ENV"
-          certificate="$RUNNER_TEMP/pool-developer-id.p12"
-          notary_key="$RUNNER_TEMP/pool-notary.p8"
-
-          printf '%s' "$APPLE_DEVELOPER_ID_P12_BASE64" | base64 -D > "$certificate"
-          printf '%s' "$APPLE_NOTARY_KEY_P8_BASE64" | base64 -D > "$notary_key"
-
-          security create-keychain -p "$keychain_password" "$keychain"
-          security set-keychain-settings -lut 7200 "$keychain"
-          security unlock-keychain -p "$keychain_password" "$keychain"
-          security import "$certificate" -k "$keychain" \
-            -P "$APPLE_DEVELOPER_ID_P12_PASSWORD" \
-            -T /usr/bin/codesign -T /usr/bin/security
-          security set-key-partition-list \
-            -S apple-tool:,apple:,codesign: -s -k "$keychain_password" "$keychain" >/dev/null
-          security list-keychains -d user -s "$keychain"
-          security default-keychain -d user -s "$keychain"
-
-          identity="$(security find-identity -v -p codesigning "$keychain" \
-            | awk '/Developer ID Application/ {print $2; exit}')"
-          if [[ -z "$identity" ]]; then
-            echo "No Developer ID Application identity was imported." >&2
-            exit 1
-          fi
-
-          xcrun notarytool store-credentials "$POOL_NOTARY_PROFILE" \
-            --key "$notary_key" \
-            --key-id "$APPLE_NOTARY_KEY_ID" \
-            --issuer "$APPLE_NOTARY_ISSUER_ID"
-
-          echo "POOL_CODESIGN_IDENTITY=$identity" >> "$GITHUB_ENV"
-
-      - name: Build signed and notarized application
+      - name: Build ad-hoc signed application
         working-directory: pool
         run: sh desktop/build_mac_app.sh
 
@@ -186,8 +117,6 @@ jobs:
           set -euo pipefail
           .venv-desktop/bin/python desktop/check_release_bundle.py dist/Pool.app
           codesign --verify --deep --strict dist/Pool.app
-          xcrun stapler validate dist/Pool.app
-          spctl --assess --type execute --verbose dist/Pool.app
           (cd dist && shasum -a 256 -c Pool-macOS-arm64.zip.sha256)
 
       - name: Validate or publish signed Sparkle update
@@ -219,17 +148,3 @@ jobs:
             echo "- Commit: $POOL_SOURCE_COMMIT"
             echo "- Feed: https://raw.githubusercontent.com/matdryhurst/HORUS-Releases/main/appcast.xml"
           } >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Remove ephemeral signing material
-        if: always()
-        shell: bash
-        run: |
-          if [[ -f "$RUNNER_TEMP/pool-original-keychain" ]]; then
-            original_keychain="$(tr -d '\"' < "$RUNNER_TEMP/pool-original-keychain" | xargs)"
-            security list-keychains -d user -s "$original_keychain" || echo "::warning::Could not restore Keychain search list"
-            security default-keychain -d user -s "$original_keychain" || echo "::warning::Could not restore default Keychain"
-          fi
-          if [[ -n "${POOL_SIGNING_KEYCHAIN:-}" && -f "$POOL_SIGNING_KEYCHAIN" ]]; then
-            security delete-keychain "$POOL_SIGNING_KEYCHAIN" || true
-          fi
-          rm -f "$RUNNER_TEMP"/pool-developer-id.p12 "$RUNNER_TEMP"/pool-notary.p8 "$RUNNER_TEMP"/pool-original-keychain
