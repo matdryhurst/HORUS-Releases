@@ -19,3 +19,15 @@ production environment is approved. Signing credentials are protected GitHub
 environment secrets and are never available to the Pool source repository or
 included in an artifact.
 
+
+The workflow defaults to `validate`: it builds and checks Developer ID signing,
+Apple notarization, and the Sparkle signature without publishing an update.
+Choose `publish` only for an intentional public release. Source must be a
+commit on Pool main, and the workflow itself must run from this repository’s
+main branch. Published binaries are never overwritten; interrupted feed updates
+can be retried only with the original identical ZIP and checksum.
+
+The protected environment is `pool-production`. Its one-time credential and
+reviewer setup is documented in the private Pool repository at
+`desktop/RELEASE_HANDOFF.md`. The private source repository’s independent
+**Check Mac release** workflow tests unsigned packaging without signing secrets.
