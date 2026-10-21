@@ -3,6 +3,21 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.23</title>
+            <pubDate>Wed, 21 Oct 2026 13:26:08 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.23</sparkle:version>
+            <sparkle:shortVersionString>0.12.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.23
+
+- Improve typed image searches by combining caption similarity with CLIP text-to-image matching, finding visual details that captions may omit. Queries are embedded locally using the existing image index.
+- Repair Google Lens searches after Google's URL-import flow became unreliable. Pool now submits a short-lived normalized JPEG as a file in the browser, while the high-resolution archive original remains private and unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.23/Pool-macOS-arm64.zip" length="383618260" type="application/octet-stream" sparkle:edSignature="tjHiuq7mlCzDxKwXfZTiZikcVgV2E03tvto0ewkC+d3YCAgCVOMYHmerMorjXosLFJitF3WxUng5j0lbpp7JCQ=="/>
+        </item>
+        <item>
             <title>0.12.22</title>
             <pubDate>Tue, 29 Sep 2026 09:21:57 +0200</pubDate>
             <link>https://github.com/matdryhurst/Pool</link>
