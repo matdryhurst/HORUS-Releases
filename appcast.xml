@@ -3,6 +3,25 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.25</title>
+            <pubDate>Wed, 21 Oct 2026 18:51:17 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.25</sparkle:version>
+            <sparkle:shortVersionString>0.12.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.25
+
+- Send selected archive images, Projects, or Concepts directly into KILN and GRIDS. Both tools also support generation without references.
+- Save generated images with their native recipes, exact source snapshots, and source relationships. Browse saved generations, restore them, export recovery bundles, and retry pending uploads.
+- Create reusable CLIP beacons for images, Concepts, Projects, and stacks, with immutable versions, explicit refresh, and vector/manifest export.
+- Preserve archive permissions when restoring generated work and preserve the settings that produced KILN’s displayed image when saving.
+
+Requires the generation-enabled archive server for shared inputs, results, and beacons. KILN and GRIDS currently accept image inputs; beacon-consuming generators and semantic canvases will follow separately.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.25/Pool-macOS-arm64.zip" length="383648541" type="application/octet-stream" sparkle:edSignature="2LiaK/dx8Bi1rq7zMfHDrksvNIDuVjRRswkl+HRrkRcA6Qfqw/8JayvwX5YGkbI0TQ25Lklejgnax6ztXiT3DQ=="/>
+        </item>
+        <item>
             <title>0.12.24</title>
             <pubDate>Wed, 21 Oct 2026 15:04:46 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
