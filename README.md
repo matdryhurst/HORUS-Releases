@@ -14,14 +14,15 @@ the corresponding private key is not stored in this repository.
 Production releases are created by the manually dispatched **Release Pool
 macOS** workflow. It reads Pool source through a short-lived, read-only GitHub
 App token, builds on an ephemeral Apple Silicon runner, runs the test suite,
-signs and notarizes the application, and updates this repository only after the
-production environment is approved. Signing credentials are protected GitHub
+ad-hoc signs the application, and signs updates with Sparkle. The protected
+production environment must approve the job before it runs. Signing credentials are protected GitHub
 environment secrets and are never available to the Pool source repository or
 included in an artifact.
 
 
-The workflow defaults to `validate`: it builds and checks Developer ID signing,
-Apple notarization, and the Sparkle signature without publishing an update.
+The workflow defaults to `validate`: it builds and checks the app signature,
+bundle contents, checksum, and Sparkle update signature without publishing.
+Apple Developer ID signing and notarization are not required.
 Choose `publish` only for an intentional public release. Source must be a
 commit on Pool main, and the workflow itself must run from this repository’s
 main branch. Published binaries are never overwritten; interrupted feed updates
