@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.24</title>
+            <pubDate>Wed, 21 Oct 2026 15:04:46 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.24</sparkle:version>
+            <sparkle:shortVersionString>0.12.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.24
+
+- Replace Press with Documents, keeping PDF ingestion, OCR, notes, folders, Concepts and original downloads.
+- Add administrator-configurable document types with optional text and date fields. Press coverage preserves existing publication, byline and dates; Library-only PDFs become Reference, with Library retained as a filter.
+- Edit document types and fields in the inspector, search custom metadata, and retain saved values when switching types.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.24/Pool-macOS-arm64.zip" length="383622256" type="application/octet-stream" sparkle:edSignature="vXPMu1RlMisEzjfOE1942UJgLdIA0qIfY23YPbDaGgPYE5QBrLH97w0HM1fqzX5VpTdREVkNGqBDT7ZFeDdyCg=="/>
+        </item>
+        <item>
             <title>0.12.23</title>
             <pubDate>Wed, 21 Oct 2026 13:26:08 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
