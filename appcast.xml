@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.26</title>
+            <pubDate>Fri, 23 Oct 2026 09:48:12 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.26</sparkle:version>
+            <sparkle:shortVersionString>0.12.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.26
+
+- Give Pool a new black-and-white app icon across the macOS app, archive interface, browser extension, and iOS source assets.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.26/Pool-macOS-arm64.zip" length="382372887" type="application/octet-stream" sparkle:edSignature="0ejBlzdOuc1kFPs62CjWXMkl8GScr5TlA8xg/oNDEuwM46HZ3Bzx9I0DfR7KrFFTMBLTHRKlXBl8F1LVFTtFBQ=="/>
+        </item>
+        <item>
             <title>0.12.25</title>
             <pubDate>Wed, 21 Oct 2026 18:51:17 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
