@@ -3,6 +3,30 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.29</title>
+            <pubDate>Mon, 26 Oct 2026 20:59:16 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.29</sparkle:version>
+            <sparkle:shortVersionString>0.12.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Record reflections with a large button: click Record reflection, speak, then
+click Stop and save. Recording now uses Pool's authenticated local API, fixing
+the native bridge's incompatibility with the archive's script security policy.
+The existing policy remains strict and audio stays on the Mac without being saved.
+Live recognition replaces the previous hypothesis without duplicating phrases.
+Stop preserves the full live text if the recognizer returns a shorter final result.
+Completed utterances are retained across the on-device recognizer's pause resets,
+so a new phrase cannot replace speech recorded before a natural pause.
+
+Choose a folder and click Reflect on folder for a guided image carousel with
+Previous, Next and a position count. This walks the full folder, including nested
+folders, independently of search filters. Each reflection stays attached to its
+image and private unless explicitly shared.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.29/Pool-macOS-arm64.zip" length="382620422" type="application/octet-stream" sparkle:edSignature="z2b1gvaaqnRxG2jxHK0GNYXNahzVguCL2YCkZAk85HWb5IT1wS/hQzl1L+Zvoxf/MPXtZ+18Pal9Y/Ax2G10BQ=="/>
+        </item>
+        <item>
             <title>0.12.28</title>
             <pubDate>Mon, 26 Oct 2026 17:55:27 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
