@@ -3,6 +3,25 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.30</title>
+            <pubDate>Mon, 26 Oct 2026 21:34:34 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.30</sparkle:version>
+            <sparkle:shortVersionString>0.12.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Record freely while moving through the image carousel. Click Record reflection once,
+use Previous and Next (or arrow keys) to move between images, then click Stop and save.
+Each passage stays attached to the image being viewed, including late recognition
+results and return visits. The microphone keeps running between images.
+
+Stop and save commits all passages privately in one session. Failed saves retain the
+session for retry without duplicate reflections. Long sessions renew recognition
+without stopping capture, with a 30-minute recording limit. No audio file is stored.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.30/Pool-macOS-arm64.zip" length="382629531" type="application/octet-stream" sparkle:edSignature="gNOX8fIGo5iRCdV7kjbVqN3BzhqMSVH9XZa7jV9GF/X5dHgr/mNsl541BUF4uYtQuOWbzU0p1kKPDnnFBeBiBQ=="/>
+        </item>
+        <item>
             <title>0.12.29</title>
             <pubDate>Mon, 26 Oct 2026 20:59:16 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
