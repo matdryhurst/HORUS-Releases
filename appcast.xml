@@ -3,6 +3,25 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.31</title>
+            <pubDate>Tue, 27 Oct 2026 14:49:45 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.31</sparkle:version>
+            <sparkle:shortVersionString>0.12.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Fix carousel recordings getting stuck on Saving. A successful save now releases
+the controls immediately, even when refreshing the history is slow or unavailable.
+Saved reflections appear in the count directly from the save response.
+
+Finishing transcription and saving now have distinct progress messages and bounded
+waits. If recognition or the connection stalls, the captured session stays in the
+open app with a working Retry save button. Retrying uses the same session identity
+to avoid duplicates. Recording and explicit sharing behavior are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.31/Pool-macOS-arm64.zip" length="382641903" type="application/octet-stream" sparkle:edSignature="CGEqP7rg1tP8o08e0GhzB+4jgJmb9DmuUOdapZNIAANZ1O7mbN/q6LVtNFk3EWKptO01yx+gIexacJo3MMplCQ=="/>
+        </item>
+        <item>
             <title>0.12.30</title>
             <pubDate>Mon, 26 Oct 2026 21:34:34 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
