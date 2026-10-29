@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.33</title>
+            <pubDate>Thu, 29 Oct 2026 13:20:38 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.33</sparkle:version>
+            <sparkle:shortVersionString>0.12.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.33
+
+Documents now includes **Connect agents**. Prepare a local Books library, copy the correct instruction for your own computer, and open its folder directly from Pool.
+
+Codex and Claude Code can search available transcriptions and inspect selected PDF pages using Pool's bundled runtime. Each person uses their own Pool sign-in; catalogue and text stay lightweight, while original PDFs download only when requested.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.33/Pool-macOS-arm64.zip" length="396114261" type="application/octet-stream" sparkle:edSignature="xjn1qDqoaS2pV+ISRTg2TD/j8GI5RMySZ9ydjOzQQYHH6J8xLwwwE7MyRlOJs6wCWX3/O5WM0CAmmrKLECo6Cg=="/>
+        </item>
+        <item>
             <title>0.12.32</title>
             <pubDate>Thu, 29 Oct 2026 11:59:32 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
