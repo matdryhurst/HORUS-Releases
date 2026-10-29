@@ -3,6 +3,25 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.32</title>
+            <pubDate>Thu, 29 Oct 2026 11:59:32 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.32</sparkle:version>
+            <sparkle:shortVersionString>0.12.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Clean up the expanded image view so its essential actions remain visible and
+balanced. Search, source, privacy, creation, beacon, history, reflection, and
+team-note controls now use clearer compact groups without awkward wrapping or
+overlap. Reflection recording and saving remain distinct actions.
+
+This update also preserves the current document workflow: PDFs up to 200 MB and
+UTF-8 Markdown files can be added to Documents, searched, previewed, and shared
+through the existing project permissions.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.32/Pool-macOS-arm64.zip" length="396102369" type="application/octet-stream" sparkle:edSignature="60gVgX7AxENlAZNIjm+hRHtMdlhTAMSpMvqdq+WRxruR7rAZkUAN6ACrRUsbaXptA3J9vhq7+AM6q5UFnDKcBg=="/>
+        </item>
+        <item>
             <title>0.12.31</title>
             <pubDate>Tue, 27 Oct 2026 14:49:45 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
