@@ -3,6 +3,25 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.34</title>
+            <pubDate>Thu, 29 Oct 2026 14:31:54 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.34</sparkle:version>
+            <sparkle:shortVersionString>0.12.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.34
+
+External collaborators can now use Documents without receiving access to the
+studio document archive. Their PDFs and Markdown files are kept in a private,
+searchable library on their own Mac and are never uploaded to Pool.
+
+Local documents can be imported, searched, previewed, renamed and downloaded.
+The shared document controls are intentionally absent in this mode.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.34/Pool-macOS-arm64.zip" length="396114686" type="application/octet-stream" sparkle:edSignature="PDh+n/OasXejY2D13hJSCTzXRz1MkwAuCbP87zoXZ5lnCLmGTWwxGJ1LBnb8IMcAFMi2zj5mDZqe+syNkr0GBg=="/>
+        </item>
+        <item>
             <title>0.12.33</title>
             <pubDate>Thu, 29 Oct 2026 13:20:38 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
