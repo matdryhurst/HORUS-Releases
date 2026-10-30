@@ -3,6 +3,27 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.42</title>
+            <pubDate>Fri, 30 Oct 2026 21:33:45 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.42</sparkle:version>
+            <sparkle:shortVersionString>0.12.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.42
+
+This update brings the refined desk layout together with the document reading and agent-library tools.
+
+- A responsive contact sheet, fixed masthead, independent sidebar and image scrolling, and controls that appear when needed.
+- A quieter image inspector and fullscreen view, compact reflection controls, and the Pool logo. Concepts controls are removed from the interface; existing data remains stored.
+- Read and search Markdown beside the original PDF, with page navigation and MusicXML downloads to your Mac.
+- Keep completed Library Markdown locally for agents, and fetch original PDFs or page images from Pool when needed.
+
+Document annotations distinguish checked transcription, score-recognition drafts and visual interpretation. OCR repairs are ongoing; this update does not mark every book as proofread.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.42/Pool-macOS-arm64.zip" length="396232134" type="application/octet-stream" sparkle:edSignature="fGWYzRJWG0rnI4h3dONgpqXuAJCdT9mUsdCQ+1e+OdO1GgHIzhv1AAvnoJjPLfnljv+tSFdc+rnnCyqgD46DBA=="/>
+        </item>
+        <item>
             <title>0.12.41</title>
             <pubDate>Fri, 30 Oct 2026 21:04:23 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
