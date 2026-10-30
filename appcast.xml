@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.41</title>
+            <pubDate>Fri, 30 Oct 2026 21:04:23 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.41</sparkle:version>
+            <sparkle:shortVersionString>0.12.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.41
+
+MusicXML attachments in the document reader now save directly to Downloads in the macOS app. Each download is checked against the saved transcript and leaves existing files intact.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.41/Pool-macOS-arm64.zip" length="396223021" type="application/octet-stream" sparkle:edSignature="j+C53uWQupb++ocuwCm02AeApB5TcXmuJARvy2y6EUAy9y4360T2h8sv+U7waKxXP7PaGOcFTF4I8ELedBGyCQ=="/>
+        </item>
+        <item>
             <title>0.12.40</title>
             <pubDate>Fri, 30 Oct 2026 20:34:53 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
