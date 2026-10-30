@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.38</title>
+            <pubDate>Fri, 30 Oct 2026 19:37:47 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.38</sparkle:version>
+            <sparkle:shortVersionString>0.12.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.38
+
+Documents now includes a Markdown reader. Open Markdown (or Text OCR for a musical score) to read the transcript inside Pool, inspect its source, search its sections, and switch to the corresponding original PDF page.
+
+The reader works with shared and local documents. Downloads remain available in the document inspector. Automatic transcripts remain unproofread; musical notation must be checked in the PDF.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.38/Pool-macOS-arm64.zip" length="396221312" type="application/octet-stream" sparkle:edSignature="9nNuB6mQ2RzC37Uc2WfmlGPYm8V2aAzrUPfU1SOt4CH0VXxaYqyouYvS8dvj9rT3vZkE59/+vz6BPpyAFPzwCQ=="/>
+        </item>
+        <item>
             <title>0.12.37</title>
             <pubDate>Fri, 30 Oct 2026 12:52:26 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
