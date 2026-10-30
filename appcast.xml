@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.36</title>
+            <pubDate>Fri, 30 Oct 2026 12:24:17 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.36</sparkle:version>
+            <sparkle:shortVersionString>0.12.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.36
+
+The agent library now includes every accessible document in Library, including books uploaded without a project. New uploads appear in the catalogue immediately and become searchable in full as server transcription completes.
+
+Press-only documents stay outside the agent library. Full PDFs still download only when requested.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.36/Pool-macOS-arm64.zip" length="396197217" type="application/octet-stream" sparkle:edSignature="02IIMVvLqyLrsGeqfAs6g71KLWNmTuvSUPI/QAdmoIITkAPiGlyX1sb9dbFM8/hCEaIYFoLchOyya0pYC10rCA=="/>
+        </item>
+        <item>
             <title>0.12.35</title>
             <pubDate>Thu, 29 Oct 2026 16:44:15 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
