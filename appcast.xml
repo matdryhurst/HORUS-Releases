@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.37</title>
+            <pubDate>Fri, 30 Oct 2026 12:52:26 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.37</sparkle:version>
+            <sparkle:shortVersionString>0.12.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.37
+
+Musical scores have a distinct document type, separate from music reference books. Choose Musical score when uploading, filter by type, and save composer, work, instrumentation, score format and edition details.
+
+Agents receive score metadata and can search or list scores separately. Score OCR is labelled as text only; agents must inspect original page images for notation and cannot treat completed text extraction as verified notes, MusicXML or MIDI.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.37/Pool-macOS-arm64.zip" length="396196485" type="application/octet-stream" sparkle:edSignature="u3Ip5HKUeQ+ssgkmfI1/I4Hrzv82u4nGbLrSIiVCpJ/6K5QRzZw2gi+DGyWR8WmMB2runa/02eFYSv03VViBBA=="/>
+        </item>
+        <item>
             <title>0.12.36</title>
             <pubDate>Fri, 30 Oct 2026 12:24:17 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
