@@ -3,6 +3,28 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.43</title>
+            <pubDate>Sat, 31 Oct 2026 23:46:09 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.43</sparkle:version>
+            <sparkle:shortVersionString>0.12.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.43
+
+This update helps agents choose useful publications by subject, topic and reference content.
+
+- Filter the agent library by subject, tag, measurements, diagrams, construction and reviewed excerpts.
+- Read, list and search cached Markdown offline, without contacting Pool or looking up sign-in credentials.
+- Find candidate measurement and drawing pages through local page indexes, with neighbouring pages suggested for context checks.
+- Keep agent guidance current on each installation while preserving personal instructions.
+- Reuse local indexes when the catalogue and transcripts have not changed.
+
+Shared categorization remains editable in Documents. Automatic classification is provisional: missing text does not establish that a publication is theory-only, and checked excerpts cover only the pages stated in their review notes. Original PDFs remain available on demand. OCR and visual review continue independently of this app update.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.43/Pool-macOS-arm64.zip" length="396236201" type="application/octet-stream" sparkle:edSignature="02W9GzzDvw5Fs4ufP1cKMDuBW92TrEf8YhtjCeJJWXRpWEhmsqWTOXlsLkqFnWqCqf1eahRDmCm21cpOVbsxDg=="/>
+        </item>
+        <item>
             <title>0.12.42</title>
             <pubDate>Fri, 30 Oct 2026 21:33:45 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
