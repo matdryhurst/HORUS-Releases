@@ -3,6 +3,26 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.44</title>
+            <pubDate>Sun, 01 Nov 2026 00:24:44 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.44</sparkle:version>
+            <sparkle:shortVersionString>0.12.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.44
+
+Documents now shows the reference filters introduced for agents in 0.12.43.
+
+- Choose a subject, find a tag, or filter for measurements, drawings and plans, construction, theory and history, visual references or notation.
+- Select reviewed excerpts, unreviewed candidates or content that has not been assessed. Review applies to the selected content; publication notes identify the checked pages.
+- Combine reference filters with search, collection, document type, project and contributor. Matching happens before pagination, so result counts cover the whole accessible collection.
+
+Tag suggestions come from your accessible document metadata. Missing content cues are not treated as proof that a publication is theory-only. OCR and visual review continue separately.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.44/Pool-macOS-arm64.zip" length="396240206" type="application/octet-stream" sparkle:edSignature="YVYLLv6E2RpchecCq5fz4ZhhwkJ0DzATcnCuzu0GsbWGWqJ85eOTOyKfjd6WdCdMQXvlMHDdi08Ql9MM/3kuAg=="/>
+        </item>
+        <item>
             <title>0.12.43</title>
             <pubDate>Sat, 31 Oct 2026 23:46:09 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
