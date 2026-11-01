@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.45</title>
+            <pubDate>Sun, 01 Nov 2026 20:53:52 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.45</sparkle:version>
+            <sparkle:shortVersionString>0.12.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.45
+
+Documents keeps importing the rest of a batch when an individual book fails, including books over the file-size or page limit.
+
+The final report separates newly added documents from books already archived and lists every failed filename with its reason. The document list refreshes after the batch, including when some uploads fail. Refresh errors are reported separately from upload failures.
+
+The existing file-size and page limits remain in place.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.45/Pool-macOS-arm64.zip" length="396243750" type="application/octet-stream" sparkle:edSignature="GcLUnm9nELFwv9PATo7JajZzbgnen8faNJNLbS2p4fhmkGKies5xXiCvJ2VFVibKmtLvNMiElq5wdIrWbTHOCA=="/>
+        </item>
+        <item>
             <title>0.12.44</title>
             <pubDate>Sun, 01 Nov 2026 00:24:44 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
