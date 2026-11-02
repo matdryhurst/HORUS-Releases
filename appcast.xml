@@ -3,6 +3,30 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.46</title>
+            <pubDate>Mon, 02 Nov 2026 15:08:39 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.46</sparkle:version>
+            <sparkle:shortVersionString>0.12.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.46
+
+The Genome view becomes **Culture**: a culture growing in the pool, something you cultivate and share.
+
+- Culture opens on a chart of the archive's embedding space. The whole pool is laid out from its real vectors; faint isobaths show where the archive is dense, dark outlines show where your own context has grown into colonies. Switch between a Meaning lens (captions) and a Shape lens (image embeddings), replay the growth over time, and click any cell to see its true nearest neighbours and walk on from there.
+- Six bands sit alongside the chart: Surface, Words, Choices, Ground, Made and Shadow. Each lists the retained context of that kind with more room, and the expand control now has its own column.
+- GRIDS shows each draft's genome as a notation strip beneath the candidate, a short blazon of the chosen parent, and a four-deep lineage memory.
+- The Admin desk is rebuilt as a rail-and-field desk: find a person, create a group and jump between sections in the rail; Groups and People as two tables with inherited access shown in lighter ink.
+- The Current desk fixes broken rules above fieldsets, puts inline forms on paper, gives ledgers column headers and sizes the project status control to match its buttons.
+- The specimen Contributor row is now **Added by**, with a label column that fits its longest label.
+- External collaborators see a stable shuffled overview in **All**, with new images mixed into the archive. Their shared and personal folders stay chronological. Upload dates and pending-upload badges are hidden in the overview.
+
+The culture chart is laid out once in the background beside the index and cached, so everyone sees the same pool. Words are placed by the text model when it is free, and beside their image otherwise.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.46/Pool-macOS-arm64.zip" length="396288800" type="application/octet-stream" sparkle:edSignature="wSSQQQm7UmwdtK8T64PcyUT+0Wpgz8Y19M3oSIoowlKvn9OkuEMSpEeioz/qCw6a/ZJf6Q1lKP6ytBJOevX/Aw=="/>
+        </item>
+        <item>
             <title>0.12.45</title>
             <pubDate>Sun, 01 Nov 2026 20:53:52 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
