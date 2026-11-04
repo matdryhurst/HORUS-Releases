@@ -3,6 +3,31 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.53</title>
+            <pubDate>Wed, 04 Nov 2026 23:43:13 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.53</sparkle:version>
+            <sparkle:shortVersionString>0.12.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.53
+
+Selector now has a macOS menu-bar player. Keep listening with Pool minimized,
+and use Play/Pause, Previous track, Interesting, Not for me, neutral Skip and
+Undo from the p∞l menu. These controls use the same listening session as Pool.
+
+Longer Selector and Thomas recordings now continue beyond their first 30
+seconds. Audio is fetched in bounded chunks and joined on the same timeline;
+chunk boundaries do not change tracks or create extra Back-history entries.
+Interesting still saves up to the last 30 seconds with 45 seconds of source
+context. Newly generated 30-second pieces retain their original length.
+
+Selector listening remains limited to Mat, Holly and Jordan. This update does
+not increase the generation allowance or start another GPU worker.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.53/Pool-macOS-arm64.zip" length="396247660" type="application/octet-stream" sparkle:edSignature="ZjLv9O69poYVcVniHA/vY9GyS0wlPiGjk8qopN32fqQb3HW3vR2LXwgrzESjSScc6U1XyiKR3/LjNuOBQ3AcDg=="/>
+        </item>
+        <item>
             <title>0.12.52</title>
             <pubDate>Wed, 04 Nov 2026 22:46:25 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
