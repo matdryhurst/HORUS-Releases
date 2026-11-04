@@ -3,6 +3,38 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.48</title>
+            <pubDate>Wed, 04 Nov 2026 19:59:12 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.48</sparkle:version>
+            <sparkle:shortVersionString>0.12.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.48
+
+Selector now lives in Pool, with a persistent toolbar player that continues
+while you browse. Tune between available stations, keep interesting moments,
+and hear recorded Thomas ensembles alongside Selector passages.
+
+- **Interesting** keeps the preceding ten seconds, including overlapping audio
+  and its original sources. The upload error is fixed, and the button stays
+  labelled Interesting after saving or retrying.
+- **Not for me** skips the current passage and records private feedback. It
+  removes that recording from your future selections and generation seeds.
+  Undo restores eligibility without erasing the original feedback.
+- Kept moments and reflections link to Culture. Develop in Thomas prepares an
+  exact source packet for a connected Codex or Claude chat.
+- Culture can supply compact, rolling tuning profiles. Audio stays on the
+  media service rather than being copied into every listener's archive.
+
+This update also includes editable Culture insights and the native Thomas
+workspace from the private 0.12.47 pilot. Selector and Thomas retain their
+current account access; installing the update does not share anyone's private
+Culture or enable access to another person's files.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.48/Pool-macOS-arm64.zip" length="396220274" type="application/octet-stream" sparkle:edSignature="J0lEe4DAKVq9Pi1/Nl7kgBJVUj9pF9LSH51oDHzL6pXq1+7+daUA5DZNfDzJq+Ym7u09B22VR/VA+2cTigE/Cg=="/>
+        </item>
+        <item>
             <title>0.12.46</title>
             <pubDate>Mon, 02 Nov 2026 15:08:39 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
