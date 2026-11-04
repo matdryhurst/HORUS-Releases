@@ -3,6 +3,38 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.51</title>
+            <pubDate>Wed, 04 Nov 2026 22:15:11 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.51</sparkle:version>
+            <sparkle:shortVersionString>0.12.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.51
+
+Selector listening and Thomas playback now work together in Pool.
+
+- Interesting keeps the last 30 seconds, with a separate 45-second context
+  window when available. Exact generation prompts, Thomas scores, source
+  timings and mix envelopes stay linked in Culture and Genome.
+- Develop in Thomas includes the original JSON/score context.
+- Skip changes passages without a dislike. Back replays the previous track.
+- Feedback buttons respond while saving, stay in place under the pointer, and
+  retain unfinished reflections across refreshes.
+- Thomas pieces have MIDI score preview, recorded-voice playback, pause,
+  resume, stop, section selection, volume and MIDI download. Generating voices
+  requires reviewing and explicitly starting the existing performance plan.
+- Playing a Thomas piece pauses Selector; resuming Selector stops the direct
+  Thomas preview.
+
+This update is available to all Pool users. Selector listening remains limited
+to Mat, Holly and Jordan. Thomas access retains its existing account limits.
+Audio remains on the media service; other listeners do not receive an archive
+copy when tuning in.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.51/Pool-macOS-arm64.zip" length="396241384" type="application/octet-stream" sparkle:edSignature="TV+d0sle+THfbz61g+AvVBtav9P9EqCjTBeRA3vLZaz70pZY7UEHs3eYHoFd2NUOtW19xOKIBM8VvN7a2dXsCQ=="/>
+        </item>
+        <item>
             <title>0.12.48</title>
             <pubDate>Wed, 04 Nov 2026 19:59:12 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
