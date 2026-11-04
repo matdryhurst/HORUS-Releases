@@ -3,6 +3,27 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.52</title>
+            <pubDate>Wed, 04 Nov 2026 22:46:25 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.52</sparkle:version>
+            <sparkle:shortVersionString>0.12.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.52
+
+Fixes the native Selector connection for listening status and settings. The
+player now sends the Radio service's required action header, so auditioning,
+pausing and changing generation settings no longer show “Use the Radio
+interface.” The existing identity and same-origin checks remain in force.
+
+Includes the responsive controls, Back, neutral Skip, 30-second Interesting
+with 45-second source context, and Thomas playback from 0.12.51. Selector
+listening remains limited to Mat, Holly and Jordan.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.52/Pool-macOS-arm64.zip" length="396240949" type="application/octet-stream" sparkle:edSignature="Nt1VW7jn88wp+SoS1seSljmShTnbMxiOpO5YYZifa+4x8H2f57XF7vHKfLm0Nh2ne6/bHleYEKBV3HjHRwJDDg=="/>
+        </item>
+        <item>
             <title>0.12.51</title>
             <pubDate>Wed, 04 Nov 2026 22:15:11 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
