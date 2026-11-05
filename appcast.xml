@@ -3,6 +3,27 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.57</title>
+            <pubDate>Thu, 05 Nov 2026 11:20:32 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.57</sparkle:version>
+            <sparkle:shortVersionString>0.12.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.57
+
+The Selector player now stays in the top right of Pool at every window width
+instead of dropping to its own row. Interesting, Back, Skip and Not for me are
+square symbols, with their names in tooltips. As the window narrows, the
+feedback space, then the volume and then the song title give way; on a very
+narrow window the section menu moves to a second row under the player.
+
+Selector listening remains limited to Mat, Holly and Jordan. Generation budgets
+and the existing GPU worker are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.57/Pool-macOS-arm64.zip" length="396267571" type="application/octet-stream" sparkle:edSignature="EVecC/b4phHOdzTiSmTaYOfKihDvGsm3QVBsJJVWUtR7UY89jhVIWsClHaTS2P4x+j0HNNEkGIs6N0/Uc8mbAw=="/>
+        </item>
+        <item>
             <title>0.12.56</title>
             <pubDate>Thu, 05 Nov 2026 10:01:44 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
