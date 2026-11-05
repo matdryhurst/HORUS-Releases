@@ -3,6 +3,37 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.54</title>
+            <pubDate>Thu, 05 Nov 2026 00:55:51 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.54</sparkle:version>
+            <sparkle:shortVersionString>0.12.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.54
+
+Pool does less work in the background. Culture capture checks changed chats,
+keeps historical backfills and active human messages, and avoids repeatedly
+opening every conversation while idle. Hidden views refresh less often, and
+the menu-bar player wakes immediately for controls and state changes.
+
+Thomas shows its library and player before Culture context finishes loading.
+The catalogue is smaller, cards load in batches, and context refreshes retain
+unfinished reflections and keyboard focus. Stable playback checks back off;
+active rendering still receives frequent status updates.
+
+Thomas ensembles can now use a server-prepared, losslessly compressed listening
+mix instead of downloading and decoding every voice separately. Original
+recordings and score versions remain available. Interesting sends the wider
+45-second context once and retains its exact final 30-second selection, reducing
+upload size without changing the selected moment or its provenance.
+
+Selector listening remains limited to Mat, Holly and Jordan. Generation budgets
+and the existing GPU worker are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.54/Pool-macOS-arm64.zip" length="396257620" type="application/octet-stream" sparkle:edSignature="ns9w2s4bNwjlBIrp9GMIqp93z0dVwYYT4fJ9BKsGWRnjA6ve7DfWg9+Rt5XmYhQDkHZ4HD4mGZQqQ/vIl19ABQ=="/>
+        </item>
+        <item>
             <title>0.12.53</title>
             <pubDate>Wed, 04 Nov 2026 23:43:13 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
