@@ -3,6 +3,26 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.56</title>
+            <pubDate>Thu, 05 Nov 2026 10:01:44 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.56</sparkle:version>
+            <sparkle:shortVersionString>0.12.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.56
+
+Tones is now a Play tones checkbox directly under Station in Selector, instead
+of the last entry in the station menu. Ticking it switches the stream to tones
+and greys the station menu. Unticking it, or choosing a station, returns to that
+station. Interludes when Selector cannot play are unchanged.
+
+Selector listening remains limited to Mat, Holly and Jordan. Generation budgets
+and the existing GPU worker are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.56/Pool-macOS-arm64.zip" length="396261725" type="application/octet-stream" sparkle:edSignature="0hLJtqsrBWjoe/N2R1rwo+d1J5YqmxNbBj7kPVFdANd2K0gn+9m+TeFGMVUloHaM7P6a5Btr7Eir4xCdE45oCg=="/>
+        </item>
+        <item>
             <title>0.12.55</title>
             <pubDate>Thu, 05 Nov 2026 08:58:29 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
