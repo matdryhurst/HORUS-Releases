@@ -3,6 +3,34 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.55</title>
+            <pubDate>Thu, 05 Nov 2026 08:58:29 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.55</sparkle:version>
+            <sparkle:shortVersionString>0.12.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.55
+
+Selector now matches the rest of Pool: square ruled controls, fewer words, and
+one set of player controls in the top bar, which also shows the current title.
+The Selector desk adds a progress line, highlights the kept moment you are
+hearing, and keeps Listen, Reflect and Develop aligned while a reflection is
+open. On a narrow window the player comes before the settings.
+
+When Selector should be playing but cannot reach the next passage, Pool now
+plays slowly changing sine-chord interludes instead of going silent or
+repeating the last passage, and returns to Selector as soon as it answers. The
+same tones are available as a Tones station, which also works offline. Tones
+are generated on this Mac. They are never kept, credited in moments or sent as
+feedback, and they do not request generation.
+
+Selector listening remains limited to Mat, Holly and Jordan. Generation budgets
+and the existing GPU worker are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.55/Pool-macOS-arm64.zip" length="396260639" type="application/octet-stream" sparkle:edSignature="cUjZolKBJ9tpCAoNteFS9kkPbuEDFensw2M9bi5Uvp5fM0Zha8KeIsD67dpwj9M/+Ll3fp23BTBIxYjNx9HPBw=="/>
+        </item>
+        <item>
             <title>0.12.54</title>
             <pubDate>Thu, 05 Nov 2026 00:55:51 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
