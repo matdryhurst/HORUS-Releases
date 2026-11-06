@@ -3,6 +3,30 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.59</title>
+            <pubDate>Fri, 06 Nov 2026 16:27:36 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.59</sparkle:version>
+            <sparkle:shortVersionString>0.12.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.59
+
+Selector uses stable codes for SA3 models and passages throughout the player,
+including source chips, saved moments, tooltips and system media controls.
+Original generation titles, model names and source identities remain in
+provenance metadata. Existing saved recordings are preserved.
+
+Selector plays full songs by default. Listening mode also offers 30, 45 or
+60 seconds per recording, with transitions between recordings. The choice
+persists across sessions, and full-song playback recovers from delayed
+continuation requests without losing its place.
+
+Selector access and generation budgets are unchanged.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.59/Pool-macOS-arm64.zip" length="396269441" type="application/octet-stream" sparkle:edSignature="lOe65o/ya/gPLMutIrAqpI/lcb1KV6UrBjpQc/DhH83w2jn458k//Qx8tQfyMatMtxOK3ikM7HWS8fKQv5uKBw=="/>
+        </item>
+        <item>
             <title>0.12.57</title>
             <pubDate>Thu, 05 Nov 2026 11:20:32 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
