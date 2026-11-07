@@ -3,6 +3,31 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.60</title>
+            <pubDate>Sat, 07 Nov 2026 15:53:07 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.60</sparkle:version>
+            <sparkle:shortVersionString>0.12.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.60
+
+Generated Codex images and 3D studies can now be saved in a **CODEX** folder
+available to the Core team. Images appear in Images; models and project documents
+appear in Documents, where their original files can be downloaded.
+
+The capture helper keeps a local recovery copy, retains the source chat and
+project, and verifies original-file checksums before confirming a save. Failed
+uploads stay pending for retry. CODEX files stay out of shared image indexes and
+thumbnail packs, and managed copies are removed after Core access is revoked.
+
+Models should be self-contained exports or complete ZIP bundles. This first
+version preserves immutable originals and provenance; it does not render models
+inside Pool or add generated images to the shared visual-similarity index.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.60/Pool-macOS-arm64.zip" length="396273756" type="application/octet-stream" sparkle:edSignature="bL4zmdJT6pw63gXRJ0juwiK94mBDNlUQ09zp3rn2+sSQIq4VKp97dT9d1vCnjlSEY5fHNVWZsISW9AT/IoqtBw=="/>
+        </item>
+        <item>
             <title>0.12.59</title>
             <pubDate>Fri, 06 Nov 2026 16:27:36 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
