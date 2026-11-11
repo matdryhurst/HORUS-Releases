@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.62</title>
+            <pubDate>Wed, 11 Nov 2026 17:14:49 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.62</sparkle:version>
+            <sparkle:shortVersionString>0.12.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.62
+
+Thomas pieces now show Voices ready, the number of completed recorded sections, or MIDI only in the library. Play voices and Play section are available directly on recorded pieces.
+
+Playback loads the score and recordings in parallel and reuses recent checks. Moving over a card prepares its playback controls without downloading audio. Generation status loads separately, so it no longer holds up listening. A slow listening mix falls back to the original voices after five seconds.
+
+The compact voice visualizer is visible as soon as a piece opens, with an Expand control. Voices remain idle until recorded playback starts.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.62/Pool-macOS-arm64.zip" length="399313558" type="application/octet-stream" sparkle:edSignature="97m3XnkL179WOryMJHI8KcsBsa5uYx7iCuMvM6UHnk9kiiEqVDUkD7uXOYcDgJ3F7/L3nmxGTFWx0cZvfeYtBA=="/>
+        </item>
+        <item>
             <title>0.12.61</title>
             <pubDate>Wed, 11 Nov 2026 16:15:57 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
