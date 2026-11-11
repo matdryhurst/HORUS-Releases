@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.61</title>
+            <pubDate>Wed, 11 Nov 2026 16:15:57 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.61</sparkle:version>
+            <sparkle:shortVersionString>0.12.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.61
+
+Thomas now shows a small circle of voices during Play voices. Each numbered voice lights up with its notes on the score clock and rests between phrases. Expand opens a larger view; Close or Escape returns to the small display.
+
+Selector automatically moves to another option when a recording is missing or cannot be decoded, including a missing section partway through a recording. Unavailable media is skipped for the current session without recording a dislike. Temporary failures while continuing a recording still retry from the unheard position.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.61/Pool-macOS-arm64.zip" length="399307270" type="application/octet-stream" sparkle:edSignature="QyPukuiFnmn8EXYD5jepzqFug6YrRYibPK1q+E4mCjKakYt6Hg/MhNyy695+pNFexN6BisD88s6kxjiNqYg/Cw=="/>
+        </item>
+        <item>
             <title>0.12.60</title>
             <pubDate>Sat, 07 Nov 2026 15:53:07 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
