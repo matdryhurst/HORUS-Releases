@@ -3,6 +3,26 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.63</title>
+            <pubDate>Wed, 11 Nov 2026 19:17:35 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.63</sparkle:version>
+            <sparkle:shortVersionString>0.12.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.63
+
+Pool apps now share a Culture methodology: Like, Interesting and reflections remain attached to the exact work and version, with their original authorship.
+
+Culture’s new Across apps view brings judgments, reflections and explorations together from Images, Documents, Links, Current, KILN, GRIDS, Selector and Thomas, including CODEX materials.
+
+Explore from here carries source material and relevant Culture evidence into future work. Composition handoffs preserve original comments, and generated work can retain its source relationships and exploration history. Future apps have the same documented integration contract.
+
+Existing ratings, Selector audio captures, archive dictation and explicit reflection sharing are preserved. Personal judgments and reflections retain their existing privacy; this update does not aggregate private accounts or train models.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.63/Pool-macOS-arm64.zip" length="399342984" type="application/octet-stream" sparkle:edSignature="8cog4HvIF6UURHaA9gx5ASTOQW42Gq9c/NGWb9gUZAd6LM8xV3KKRMojcDAmCVPz2FLXm7ejZd5JlZBjLa/wAg=="/>
+        </item>
+        <item>
             <title>0.12.62</title>
             <pubDate>Wed, 11 Nov 2026 17:14:49 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
