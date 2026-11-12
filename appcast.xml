@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.65</title>
+            <pubDate>Thu, 12 Nov 2026 18:45:01 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.65</sparkle:version>
+            <sparkle:shortVersionString>0.12.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.65
+
+Thomas’s Reflections & context area can now be collapsed. Your choice is remembered on this device across pieces and restarts.
+
+Culture filters fit within Thomas’s header borders. Composition marks stay in an aligned monochrome footer, so hovering no longer reveals an extra purple strip or colours only part of a tile.
+
+Removes automatic image-tile visibility calculations implicated in a macOS web-view stall. Image loading, grey placeholders and fade-in remain available.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.65/Pool-macOS-arm64.zip" length="399363367" type="application/octet-stream" sparkle:edSignature="JUHlljW8hIaGCAOJF41vvWKSYKYz0e/jvvNri7zesyahbvE2h5KEbxEWmocvMkl1PrZJDwzQaoWBXrnPJTZCDA=="/>
+        </item>
+        <item>
             <title>0.12.64</title>
             <pubDate>Thu, 12 Nov 2026 18:15:31 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
