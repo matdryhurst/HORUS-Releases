@@ -3,6 +3,30 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.64</title>
+            <pubDate>Thu, 12 Nov 2026 18:15:31 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.64</sparkle:version>
+            <sparkle:shortVersionString>0.12.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.64
+
+Culture now uses one line of four marks in every app: + Interesting, ● Like, ” Reflection and ↳ Direction. Marked images, documents, links, Current projects and Thomas pieces show their marks on the tile or row. Hover to add or remove Interesting and Like in place.
+
+Each inspector opens with the same four marks, your words, and one thread of reflections, intentions and what was made from the material. Selector’s Kept cards, saved generations and the fullscreen image view carry a compact version. Press I, L, R or E on the open item.
+
+Each app’s heading counts your marks; press one to narrow that app to material carrying it. Thomas’s Like button and Liked by me filter give way to the shared marks, and earlier likes are kept.
+
+Culture’s Across apps view is now Marks: your marks counted by app, then Directions, which lists made results waiting for your verdict and Interesting material nothing has been made from yet. The Culture button shows how many results are waiting.
+
+The image archive now loads ahead of you: thumbnails a screen and a half ahead, and the next page well before the end. Pictures fade in over grey placeholders, grey tiles hold the end of the page while more loads, and hover states and dialogs ease instead of snapping. The Projects All row now spans the sidebar.
+
+Existing ratings, Not for me, Current attention, team notes, dictation and reflection sharing are unchanged. Marks stay private to you; nothing is ranked, scored or inferred from them.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.64/Pool-macOS-arm64.zip" length="399363650" type="application/octet-stream" sparkle:edSignature="9H+ACZ6Dbd13ps8CJM4qbuB5c64iYjNlSJ2yfFFcdjE2qCgUpE82QAeSRcgiu32C9i0B1QRx/ZpCvb+nD+qhCg=="/>
+        </item>
+        <item>
             <title>0.12.63</title>
             <pubDate>Wed, 11 Nov 2026 19:17:35 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
