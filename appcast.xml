@@ -3,6 +3,26 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.67</title>
+            <pubDate>Mon, 16 Nov 2026 08:19:06 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.67</sparkle:version>
+            <sparkle:shortVersionString>0.12.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.67 — choral workspace
+
+Thomas adds a compact choral workspace for casting voices, selecting passages,
+auditioning supported sounds, and keeping or comparing takes. Advanced casting
+intentions, ensemble management and reflection controls expand only when needed.
+Existing scores are preserved; each audition is a separate immutable version.
+
+Gender, range, language and delivery guide composition; they are not independent
+learned audio controls in this release. New vocal training has not been run.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.67/Pool-macOS-arm64.zip" length="401089543" type="application/octet-stream" sparkle:edSignature="K40sHcE31wKQEltS3get75RBiiEnDgyYVgezXYAvQY+wknTElZsB9PwUFSAqpUShKmd+2vI65k70sE9dGAXGAQ=="/>
+        </item>
+        <item>
             <title>0.12.66</title>
             <pubDate>Thu, 12 Nov 2026 19:39:13 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
