@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.68</title>
+            <pubDate>Tue, 17 Nov 2026 08:08:36 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.68</sparkle:version>
+            <sparkle:shortVersionString>0.12.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.68
+
+Culture now has four bands: Field, Marks and words, Insights and Made. Your words, choices, memberships, Thomas, Selector and agent-only threads are views in each band's Show menu. Thomas and Selector views appear only when you have those apps, and Culture buttons in Thomas and Selector open their view directly.
+
+The marks-by-app table appears on Marks across apps. Ratings are listed as a private sort order.
+
+Pool now says Culture wherever it used to say genome. Nothing you have saved has moved or changed.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.68/Pool-macOS-arm64.zip" length="401094616" type="application/octet-stream" sparkle:edSignature="uJLQ2lU2Ascu7aItPdpW5X/DJ72LK5ym8I5T/iRW5vI4+gLSeqX1iBWEmT2ZoVu9+gNO4HZuG9rod9kuv61dDA=="/>
+        </item>
+        <item>
             <title>0.12.67</title>
             <pubDate>Mon, 16 Nov 2026 08:19:06 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
