@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.70</title>
+            <pubDate>Wed, 18 Nov 2026 07:03:22 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.70</sparkle:version>
+            <sparkle:shortVersionString>0.12.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.70
+
+Culture's Field is now a grey sprite field that evolves on its own. Each item you mark plants a sprite, or chooses one already growing there: ratings keep it, reflections nudge it and chat prompts make it wilder. Each area's founder evolves with your marks, sprites that suit it spread faster, and lines that meet can breed.
+
+Press Replay to watch your culture grow, or drag Up to back. Hover a line to name it and click it to see its neighbours.
+
+Contours, ink choices and Breed founders are gone; the same marks always grow the same field, so nothing is saved. Culture also opens faster.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.70/Pool-macOS-arm64.zip" length="401121844" type="application/octet-stream" sparkle:edSignature="uGS8ymQn0b/icb+mIWAiKlu0b67CEOvvw6M1+yDGwMcAQIuJ8fqUtIhfqgK20qro4c7HjilZ81yjzWz1cwcABA=="/>
+        </item>
+        <item>
             <title>0.12.69</title>
             <pubDate>Tue, 17 Nov 2026 08:49:59 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
