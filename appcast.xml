@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.73</title>
+            <pubDate>Wed, 25 Nov 2026 09:57:43 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.73</sparkle:version>
+            <sparkle:shortVersionString>0.12.73</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.73
+
+Skills now accepts ZIP packages up to 200 MB, so complete workflows can retain their bundled references and scripts. Expanded archives remain bounded, and imports still do not install or run code.
+
+Includes the Skills area, Selector browsing and queue, native music-folder chooser, and offline retry fixes from the preceding releases.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.73/Pool-macOS-arm64.zip" length="401596570" type="application/octet-stream" sparkle:edSignature="NiZ5GwV1RNZ6jVYLdK72kky1s00Gwf4DNbQhp462NgDziMzLIuEjVUazShVmWe+RgEwuMymHmJ/p/OntKxpGBg=="/>
+        </item>
+        <item>
             <title>0.12.72</title>
             <pubDate>Wed, 25 Nov 2026 09:34:59 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
