@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.72</title>
+            <pubDate>Wed, 25 Nov 2026 09:34:59 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.72</sparkle:version>
+            <sparkle:shortVersionString>0.12.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.72
+
+Selector now opens its music-folder chooser in Pool's own window, starting in your Music folder. Choosing a folder no longer times out after 45 seconds, and only one chooser can open at a time.
+
+When Pool streams are offline, connection retries back off while local music and kept passages remain available. Refresh still retries immediately.
+
+Includes the Documents Skills area from 0.12.71, with portable Claude and Codex skill imports, previews and ZIP downloads for sharing.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.72/Pool-macOS-arm64.zip" length="401596219" type="application/octet-stream" sparkle:edSignature="55oxZAiMqoNSvWDYW9GQExFv0+bic1lo0yWcoKCA8ig0VTWGKeXfGJyNXQOMUGsSocCbPcvFbpcPyWVwAmSdAg=="/>
+        </item>
+        <item>
             <title>0.12.71</title>
             <pubDate>Wed, 25 Nov 2026 09:06:32 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
