@@ -3,6 +3,24 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.71</title>
+            <pubDate>Wed, 25 Nov 2026 09:06:32 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.71</sparkle:version>
+            <sparkle:shortVersionString>0.12.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.71
+
+Documents now has a separate Skills area for reusable Claude and Codex skills. Add a SKILL.md file or a ZIP containing the skill's scripts and references, search its purpose and requirements, then download a complete skill ZIP to use or share. Skills use existing Documents access; local-only accounts keep them on their own Mac. Importing a skill does not install or run it.
+
+Selector now includes a local music library alongside generated recordings, with Library, Radio and Kept views. Browse by album, artist, folder or track, inspect recordings and manage an Up next queue. Local audio analysis and kept passages stay private. Manual queues work independently from radio playback.
+
+This update also checks the packaged HTTPS trust store and the skill parser before distribution.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.71/Pool-macOS-arm64.zip" length="401592454" type="application/octet-stream" sparkle:edSignature="MdbYTtkERjYkbE+SzHIqX0yFwU4T6cM9MdZbPb5lR8XSRDdMm3BV1iskpEHP8LGo0f92RS8P1VWKv6mtk5+LCQ=="/>
+        </item>
+        <item>
             <title>0.12.70</title>
             <pubDate>Wed, 18 Nov 2026 07:03:22 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
