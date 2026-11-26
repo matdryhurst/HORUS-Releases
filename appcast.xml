@@ -3,6 +3,22 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.74</title>
+            <pubDate>Thu, 26 Nov 2026 12:21:21 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.74</sparkle:version>
+            <sparkle:shortVersionString>0.12.74</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.74
+
+Selector has an **Idents** tab. Each Pool gets a short sound on the first visit, can generate variations, and can personalize future versions with a recording. Each version can carry credits or a workflow link. Export the ident and its record together as a ZIP that another Pool can import.
+
+The optional local watermark engine generates a quiet machine-readable code and checks it after short crops and MP3 and AAC compression. When the engine is unavailable or a check fails, the ident and its record still export. The engine requires a separate Python environment with a cached WavMark model. The full record travels in the ZIP, and the audio carries the short code. Ident generation uses the Pool's synthesized palette or a chosen audio excerpt.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.74/Pool-macOS-arm64.zip" length="401686184" type="application/octet-stream" sparkle:edSignature="RFn+BC05I23LzUJ6padMxwB5oP+kU1YEEEcSaG3ouv21UMqUNChYp7U+qLaa6zQJ6kLZcZasDnhIDNG4RaKYBQ=="/>
+        </item>
+        <item>
             <title>0.12.73</title>
             <pubDate>Wed, 25 Nov 2026 09:57:43 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
