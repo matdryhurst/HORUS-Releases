@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.75</title>
+            <pubDate>Thu, 26 Nov 2026 17:40:58 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.75</sparkle:version>
+            <sparkle:shortVersionString>0.12.75</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.75
+
+Members with Ark access can open the shared studio archive from the Ark tab using their Pool sign-in. The inventory uses compact controls and a narrower sidebar. Searches and filters show their own result counts.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.75/Pool-macOS-arm64.zip" length="401694569" type="application/octet-stream" sparkle:edSignature="fARLybMVVGt2d4ds5KUjs4J7LXoEY6gFQ+VCy6RF1zWIxFXJSdv+amfjpy9yhcz4WuUkS7jwerBEPCjJPD8+AQ=="/>
+        </item>
+        <item>
             <title>0.12.74</title>
             <pubDate>Thu, 26 Nov 2026 12:21:21 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
