@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.77</title>
+            <pubDate>Fri, 27 Nov 2026 12:26:53 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.77</sparkle:version>
+            <sparkle:shortVersionString>0.12.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.77
+
+WATCHER gives each Pool user a private workspace on their Mac. Open WATCHER and choose Setup for instructions, or Add watch to follow a public website, RSS feed or Atom feed. Gather references and reflections, and optionally index lead images for six-crop visual search. Enabled sources refresh while Pool is open.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.77/Pool-macOS-arm64.zip" length="401741331" type="application/octet-stream" sparkle:edSignature="bgoKB7IzISb6IN1CFvcqwXmM6ZoHnO4RdZiKeK8aE4b1lueyhSrnzdN78IfqSIv0TCpGaWsElF7ODFIcUoLgDw=="/>
+        </item>
+        <item>
             <title>0.12.76</title>
             <pubDate>Fri, 27 Nov 2026 11:57:54 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
