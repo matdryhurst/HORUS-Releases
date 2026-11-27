@@ -3,6 +3,20 @@
     <channel>
         <title>p∞l</title>
         <item>
+            <title>0.12.76</title>
+            <pubDate>Fri, 27 Nov 2026 11:57:54 +0000</pubDate>
+            <link>https://github.com/HerndonDryhurstStudio/Pool</link>
+            <sparkle:version>0.12.76</sparkle:version>
+            <sparkle:shortVersionString>0.12.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Pool 0.12.76
+
+Members with Norma access can select Norma in Pool, then choose Continue with Pool in their browser to open their existing Norma account.
+]]></description>
+            <enclosure url="https://github.com/matdryhurst/HORUS-Releases/releases/download/v0.12.76/Pool-macOS-arm64.zip" length="401695377" type="application/octet-stream" sparkle:edSignature="Mk5/mHBbUgj2Ppf+LwVF7+paDIgWvd9HJbZKAoTY7Z/Bd+LJKdqJB6awvYHI+PZaB5H3uVOcQLNgt2eHLgGsAw=="/>
+        </item>
+        <item>
             <title>0.12.75</title>
             <pubDate>Thu, 26 Nov 2026 17:40:58 +0000</pubDate>
             <link>https://github.com/HerndonDryhurstStudio/Pool</link>
